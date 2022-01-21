@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class OddOrEven {
 
     public static boolean isEven(int n) {
-        return true;
+
+        return n % 2 == 0;
     }
 
     public static void main(String[] args) {
